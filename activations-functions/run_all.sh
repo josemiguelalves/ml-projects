@@ -1,0 +1,5 @@
+CUDA_VISIBLE_DEVICES=0 python resnet.py ./ --name "final" --nonlin "relu"
+CUDA_VISIBLE_DEVICES=0 python resnet.py ./ --name "final" --nonlin "elu"
+CUDA_VISIBLE_DEVICES=0 python resnet.py ./ --name "final" --nonlin "leaky_relu"
+CUDA_VISIBLE_DEVICES=0 python resnet.py ./ --name "final" --nonlin "tanh"
+CUDA_VISIBLE_DEVICES=0 python resnet.py ./ --name "final" --nonlin "sigmoid"
